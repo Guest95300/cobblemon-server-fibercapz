@@ -12,8 +12,47 @@ team modify Groudon color dark_red
 team add Kyogre 
 team modify Kyogre color dark_blue
 
+
 team add Ceru
 team modify Ceru color dark_purple
 
 team add Arma
 team modify Arma color gold
+
+
+team add Rickygoon 
+team modify Rickygoon color dark_gray
+
+team add Rickygoob
+team modify Rickygoob color dark_gray
+
+team add Ricky
+team modify Ricky color white
+
+team add Rickymax
+team modify Rickymax color red
+
+
+
+team add dogone
+team modify dogone color black
+
+team add dogtwo
+team modify dogtwo color black
+
+team add bodydog
+team modify bodydog color red
+
+team add bigdog
+team modify bigdog color dark_red
+
+
+
+team add mime
+team modify mime color pink
+
+team add rime
+team modify rime color pink
+
+team add wise
+team modify wise color red

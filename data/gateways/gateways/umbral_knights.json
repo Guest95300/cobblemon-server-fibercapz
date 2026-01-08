@@ -67,11 +67,50 @@
 				},
 				{
 					"entity": "minecraft:breeze",
-					"count": 10,
+					"count": 3,
 					"nbt": {
 						"pehkui:scale_data_types": {
 							"pehkui:base": {
-								"scale": 0.55
+								"scale": 0.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+			},
+			{
+			"entities": [
+				{
+					
+					"entity": "minecraft:breeze",
+					"count": 3,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.75
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					
+					"entity": "born_in_chaos_v1:door_knight",
+					"count": 5,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
 								}
 							}
 							},
@@ -91,8 +130,39 @@
 		{
 			"entities": [
 				{
+					
+					"entity": "born_in_chaos_v1:thornshell_crab",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 5.00
+								}
+							}
+							},
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 2.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_multiplied_total",
+					"value": 12.0
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+		},
+		{
+			"entities": [
+				{
 					"entity": "cobblemon:pokemon",
-					"count": 8,
+					"count": 5,
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
@@ -150,7 +220,7 @@
 				},
 				{
 					"entity": "minecraft:breeze",
-					"count": 5,
+					"count": 3,
 					"nbt": {
 						"pehkui:scale_data_types": {
 							"pehkui:base": {
@@ -162,7 +232,7 @@
 				},
                 {
 					"entity": "born_in_chaos_v1:fallen_chaos_knight",
-					"count": 5,
+					"count": 3,
 					"nbt": {
 						"pehkui:scale_data_types": {
 							"pehkui:base": {

@@ -9,7 +9,7 @@
 			"entities": [
 				{
 					"entity": "cobblemon:pokemon",
-					"count": N1554,
+					"count": 5,
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
@@ -67,7 +67,7 @@
 				},
 				{
 					"entity": "minecraft:blaze",
-					"count": 10,
+					"count": 2,
 					"nbt": {
 						"pehkui:scale_data_types": {
 							"pehkui:base": {
@@ -91,12 +91,82 @@
 		{
 			"entities": [
 				{
+					
+					"entity": "minecraft:blaze",
+					"count": 3,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.55
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					
+					"entity": "born_in_chaos_v1:skeleton_demoman",
+					"count": 7,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.55
+								}
+							}
+							},
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+		},
+		{
+			"entities": [
+				{
+					
+					"entity": "born_in_chaos_v1:thornshell_crab",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 5.00
+								}
+							}
+							},
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 2.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_multiplied_total",
+					"value": 12.0
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+		},
+		{
+			"entities": [
+				{
 					"entity": "cobblemon:pokemon",
-					"count": 8,
+					"count": 5,
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
-							"Ceru"
+							"Arma"
 						],
 						"Behaviours": [
 							"cobblemon:fights_melee", 
@@ -150,7 +220,7 @@
 				},
 				{
 					"entity": "minecraft:blaze",
-					"count": 5,
+					"count": 3,
 					"nbt": {
 						"pehkui:scale_data_types": {
 							"pehkui:base": {
@@ -162,7 +232,7 @@
 				},
 				{
 					"entity": "born_in_chaos_v1:fallen_chaos_knight",
-					"count": 5,
+					"count": 3,
 					"nbt": {
 						"pehkui:scale_data_types": {
 							"pehkui:base": {
@@ -189,7 +259,7 @@
             "type": "gateways:stack",
             "stack": {
 				"id": "numismatics:bevel",
-				"count": 9
+				"count": 8
 			},
 			"components": {
 				"Glowing": 1
