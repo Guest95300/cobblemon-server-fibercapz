@@ -9,7 +9,7 @@
 			"entities": [
 				{
 					"entity": "cobblemon:pokemon",
-					"count": 100000000,
+					"count": 100,
 					"nbt": {
 						"Tags": [
 							"Gatewaypokemon",
