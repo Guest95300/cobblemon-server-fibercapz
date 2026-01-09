@@ -49,10 +49,10 @@ team modify bigdog color dark_red
 
 
 team add mime
-team modify mime color pink
+team modify mime color white
 
 team add rime
-team modify rime color pink
+team modify rime color white
 
 team add wise
 team modify wise color red
