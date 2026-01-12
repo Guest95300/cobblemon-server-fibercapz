@@ -7,16 +7,6 @@ schedule function cobblecapz:at_specific_gateway 3s
 schedule function cobblecapz:special_gateway_func/rebound 5t
 
 
-
-
-
-
-
-
-
-
-
-
 team add Groudon 
 team modify Groudon color dark_red
 

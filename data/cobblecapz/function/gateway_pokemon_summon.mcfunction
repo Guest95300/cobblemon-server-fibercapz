@@ -15,6 +15,8 @@ effect give @s[tag=Kyogre] minecraft:glowing 190 0 true
 attribute @s[tag=Kyogre] minecraft:generic.max_health base set 1024
 effect give @s[tag=Kyogre] minecraft:instant_health 1 10 true
 
+
+
 data merge entity @s[tag=Ceru] {NoAI:0b, Pokemon:{PokemonData: ["uncatchable", "uncatchable", "uncatchable"], ScaleModifier: 1.0f, Marks:["cobblemon:mark_personality_vigor"], Species:"cobblemon:ceruledge",Health: 1645, MoveSet: [{RaisedPPStages: 0, MoveName: "nightslash", MovePP: 15}, {RaisedPPStages: 0, MoveName: "psychocut", MovePP: 20}, {RaisedPPStages: 0, MoveName: "bitterblade", MovePP: 10}, {RaisedPPStages: 0, MoveName: "allyswitch", MovePP: 15}], Experience: 19531250, Level: 250},"DeathLootTable": "/"}
 team join Ceru @s[tag=Ceru]
 effect give @s[tag=Ceru] minecraft:glowing 190 0 true
@@ -93,7 +95,7 @@ effect give @s[tag=rime] minecraft:glowing 190 0 true
 attribute @s[tag=rime] minecraft:generic.max_health base set 120
 effect give @s[tag=rime] minecraft:instant_health 1 10 true
 
-data merge entity @s[tag=wise] {NoAI:0b, Pokemon:{PokemonData: ["uncatchable", "uncatchable", "uncatchable"], ScaleModifier: 3.5f, Marks:["cobblemon:mark_personality_vigor"], Species:"cobblemon:blacephalon", Health: 1645, MoveSet: [{RaisedPPStages: 0, MoveName: "shadowball", MovePP: 15}, {RaisedPPStages: 0, MoveName: "fireblast", MovePP: 5}, {RaisedPPStages: 0, MoveName: "trick", MovePP: 10}, {RaisedPPStages: 0, MoveName: "willowisp", MovePP: 15}], Experience: 19531, Level: 25}, "DeathLootTable": "/"}
+data merge entity @s[tag=wise] {NoAI:0b, Pokemon:{PokemonData: ["uncatchable", "uncatchable", "uncatchable"], ScaleModifier: 3.5f, Marks:["cobblemon:mark_personality_vigor"], Species:"cobblemon:blacephalon", Health: 1645, MoveSet: [{RaisedPPStages: 0, MoveName: "shadowball", MovePP: 15}, {RaisedPPStages: 0, MoveName: "fireblast", MovePP: 5}, {RaisedPPStages: 0, MoveName: "trick", MovePP: 10}, {RaisedPPStages: 0, MoveName: "willowisp", MovePP: 15}], Experience: 19531250, Level: 250, Level: 200}, "DeathLootTable": "/"}
 team join wise @s[tag=wise]
 effect give @s[tag=wise] minecraft:glowing 190 0 true
 attribute @s[tag=wise] minecraft:generic.max_health base set 500
