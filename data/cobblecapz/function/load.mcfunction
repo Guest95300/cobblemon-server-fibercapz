@@ -15,15 +15,6 @@ schedule function cobblecapz:at_gateway 10t
 
 
 
-
-
-
-
-
-
-
-
-
 team add Groudon
 team modify Groudon color dark_red
 
