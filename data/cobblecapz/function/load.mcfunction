@@ -92,3 +92,16 @@ team add fetch2
 team modify fetch2 color black
 team add fetch3
 team modify fetch3 color white
+
+team add grim
+team modify grim color black
+team add dusk
+team modify dusk color black
+team add dusc
+team modify dusc color black
+team add runa
+team modify runa color black
+team add trev
+team modfy trev color black
+team add bosshoopa
+team modify bosshoopa color dark_purple

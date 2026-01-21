@@ -1,0 +1,9 @@
+data merge entity @s[tag=bosshoopa] {NoAI:0b, Pokemon:{PokemonData: ["uncatchable", "uncatchable", "uncatchable"], ScaleModifier: 5.0f, Marks:["cobblemon:mark_personality_vigor"], Species:"cobblemon:hoopa", Shiny: 1b, Health: 1645, Features: [{"cobblemon:feature_id": "djinn_state", djinn_state: "unbound"}], MoveSet: [{RaisedPPStages: 0, MoveName: "hyperspacefury", MovePP: 5}, {RaisedPPStages: 0, MoveName: "hyperspacehole", MovePP: 5}, {RaisedPPStages: 0, MoveName: "darkpulse", MovePP: 15}, {RaisedPPStages: 0, MoveName: "trickroom", MovePP: 5}], Experience: 156250046, Level: 500}, "DeathLootTable": "/"}
+team join bosshoopa @s[tag=bosshoopa]
+effect give @s[tag=bosshoopa] minecraft:glowing 20 0 true
+attribute @s[tag=bosshoopa] minecraft:generic.max_health base set 1024
+attribute @s[tag=bosshoopa] minecraft:generic.armor base set 30.0
+attribute @s[tag=bosshoopa] minecraft:generic.attack_damage base set 25
+attribute @s[tag=bosshoopa] minecraft:generic.max_absorption base set 5.0
+attribute @s[tag=bosshoopa] minecraft:generic.movement_speed base set 1.0
+effect give @s[tag=bosshoopa] minecraft:instant_health 1 10 true

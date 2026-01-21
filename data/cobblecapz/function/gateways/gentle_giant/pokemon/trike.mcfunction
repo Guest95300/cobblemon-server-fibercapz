@@ -4,4 +4,4 @@ effect give @s[tag=trike] minecraft:glowing 20 0 true
 attribute @s[tag=trike] minecraft:generic.max_health base set 500
 effect give @s[tag=trike] minecraft:instant_health 1 10 true
 effect give @s[tag=trike] minecraft:fire_resistance 1000000 10 true
-effect give @s[tag=trike] minecraft:resistance 1000000 10 true
+effect give @s[tag=trike] minecraft:resistance 1000000 3 true
