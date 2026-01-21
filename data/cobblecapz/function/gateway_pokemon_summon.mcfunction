@@ -15,32 +15,32 @@ effect give @s[tag=Kyogre] minecraft:glowing 190 0 true
 attribute @s[tag=Kyogre] minecraft:generic.max_health base set 1024
 effect give @s[tag=Kyogre] minecraft:instant_health 1 10 true
 
-execute as @s if entity @s[tag=Ceru] run function cobblecapz:gateways/umbral_knights/pokemon/ceru 
-execute as @s if entity @s[tag=Arma] run function cobblecapz:gateways/psionic_knights/pokemon/arma 
+execute as @s if entity @s[tag=Ceru] run function cobblecapz:gateways/umbral_knights/pokemon/ceru
+execute as @s if entity @s[tag=Arma] run function cobblecapz:gateways/psionic_knights/pokemon/arma
 
-execute as @s if entity @s[tag=Rickygoon] run function cobblecapz:gateways/angrymangry/pokemon/rickygoon 
+execute as @s if entity @s[tag=Rickygoon] run function cobblecapz:gateways/angrymangry/pokemon/rickygoon
 execute as @s if entity @s[tag=Rickygoob] run function cobblecapz:gateways/angrymangry/pokemon/rickygoob
 execute as @s if entity @s[tag=Ricky] run function cobblecapz:gateways/angrymangry/pokemon/ricky
 execute as @s if entity @s[tag=Rickymax] run function cobblecapz:gateways/angrymangry/pokemon/rickymax
 
-execute as @s if entity @s[tag=dogone] run function cobblecapz:gateways/dead_hounds/pokemon/dogone 
+execute as @s if entity @s[tag=dogone] run function cobblecapz:gateways/dead_hounds/pokemon/dogone
 execute as @s if entity @s[tag=dogtwo] run function cobblecapz:gateways/dead_hounds/pokemon/dogtwo
 execute as @s if entity @s[tag=bodydog] run function cobblecapz:gateways/dead_hounds/pokemon/bodydog
 execute as @s if entity @s[tag=bigdog] run function cobblecapz:gateways/dead_hounds/pokemon/bigdog
 
-execute as @s if entity @s[tag=mime] run function cobblecapz:gateways/circus/pokemon/mime 
+execute as @s if entity @s[tag=mime] run function cobblecapz:gateways/circus/pokemon/mime
 execute as @s if entity @s[tag=rime] run function cobblecapz:gateways/circus/pokemon/rime
 execute as @s if entity @s[tag=wise] run function cobblecapz:gateways/circus/pokemon/wise
 
-execute as @s if entity @s[tag=char1] run function cobblecapz:gateways/dragon_raid/pokemon/char1 
+execute as @s if entity @s[tag=char1] run function cobblecapz:gateways/dragon_raid/pokemon/char1
 execute as @s if entity @s[tag=char2] run function cobblecapz:gateways/dragon_raid/pokemon/char2
 execute as @s if entity @s[tag=hax1] run function cobblecapz:gateways/dragon_raid/pokemon/hax1
 execute as @s if entity @s[tag=hax2] run function cobblecapz:gateways/dragon_raid/pokemon/hax2
-execute as @s if entity @s[tag=mega1] run function cobblecapz:gateways/dragon_raid/pokemon/mega1 
+execute as @s if entity @s[tag=mega1] run function cobblecapz:gateways/dragon_raid/pokemon/mega1
 execute as @s if entity @s[tag=mega2] run function cobblecapz:gateways/dragon_raid/pokemon/mega2
 execute as @s if entity @s[tag=bigdragon] run function cobblecapz:gateways/dragon_raid/pokemon/bigdragon
 
-execute as @s if entity @s[tag=star1] run function cobblecapz:gateways/star_spangled/pokemon/star1 
+execute as @s if entity @s[tag=star1] run function cobblecapz:gateways/star_spangled/pokemon/star1
 execute as @s if entity @s[tag=star2] run function cobblecapz:gateways/star_spangled/pokemon/star2
 execute as @s if entity @s[tag=star3] run function cobblecapz:gateways/star_spangled/pokemon/star3
 

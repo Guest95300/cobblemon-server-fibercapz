@@ -59,7 +59,7 @@ team add hax1
 team modify hax1 color gray
 team add hax2
 team modify hax2 color dark_green
-team add mega1  
+team add mega1
 team modify mega1 color gold
 team add mega2
 team modify mega2 color dark_blue
