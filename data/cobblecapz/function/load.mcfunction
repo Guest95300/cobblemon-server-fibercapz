@@ -10,6 +10,7 @@ function cobblecapz:gatewayraids/wish_dean_frigibax/enabled
 
 #Enabled special mechanics. Disable anything not in use to save performance.
 function cobblecapz:tick_special_mechanics/disappearing_tag/enabled
+function cobblecapz:tick_special_mechanics/flight_block/enabled
 
 
 
