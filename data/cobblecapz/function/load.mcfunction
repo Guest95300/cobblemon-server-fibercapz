@@ -11,6 +11,7 @@ function cobblecapz:gatewayraids/wish_dean_frigibax/enabled
 #Enabled special mechanics. Disable anything not in use to save performance.
 function cobblecapz:tick_special_mechanics/disappearing_tag/enabled
 function cobblecapz:tick_special_mechanics/flight_block/enabled
+function cobblecapz:tick_special_mechanics/special_items/firework_maker/enabled
 
 
 
@@ -19,6 +20,8 @@ schedule function cobblecapz:gatewayraid_rebound 5t
 schedule function cobblecapz:at_gateway 10t
 
 
+
+#Glowing colors for gateway pokemon
 
 team add Groudon
 team modify Groudon color dark_red

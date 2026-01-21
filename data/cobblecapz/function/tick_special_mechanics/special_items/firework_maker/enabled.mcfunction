@@ -1,0 +1,1 @@
+function cobblecapz:tick_special_mechanics/special_items/firework_maker/timer
