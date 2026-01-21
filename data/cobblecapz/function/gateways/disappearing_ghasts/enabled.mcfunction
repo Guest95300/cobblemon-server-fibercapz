@@ -1,2 +1,1 @@
 function cobblecapz:gateways/disappearing_ghasts/loop_3s
-function cobblecapz:gateways/disappearing_ghasts/disappearing_ghasts

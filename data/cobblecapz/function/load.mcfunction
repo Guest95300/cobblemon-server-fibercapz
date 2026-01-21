@@ -1,14 +1,17 @@
 scoreboard objectives add boss_fireball_rain dummy
-scoreboard objectives add dis.ghast dummy
+scoreboard objectives add disappearing_score dummy
 scoreboard objectives add gatewayplayercount dummy
 
 
 #Enabled gateway raids. Add # before command to disable the underlying mechanics of that gateway.
-
-#schedule function cobblecapz:gateways/disappearing_ghasts/disappearing_ghasts 1s
 function cobblecapz:gateways/disappearing_ghasts/enabled
 function cobblecapz:gateways/the_eruption/enabled
 function cobblecapz:gatewayraids/wish_dean_frigibax/enabled
+
+#Enabled special mechanics. Disable anything not in use to save performance.
+function cobblecapz:tick_special_mechanics/disappearing_tag/enabled
+
+
 
 #General gateway mechanics. Do not disable.
 schedule function cobblecapz:gatewayraid_rebound 5t
