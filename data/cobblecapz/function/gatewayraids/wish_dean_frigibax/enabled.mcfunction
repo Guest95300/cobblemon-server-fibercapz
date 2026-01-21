@@ -1,0 +1,1 @@
+function cobblecapz:gatewayraids/wish_dean_frigibax/loop_1t

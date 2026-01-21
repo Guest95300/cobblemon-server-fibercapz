@@ -16,9 +16,9 @@ attribute @s[tag=Kyogre] minecraft:generic.max_health base set 1024
 effect give @s[tag=Kyogre] minecraft:instant_health 1 10 true
 
 
-execute as @s if entity @s[tag=Ceru] run function cobblecapz:gateways/umbral_knights/pokemon/ceru 
+execute as @s if entity @s[tag=Ceru] run function cobblecapz:gateways/umbral_knights/pokemon/ceru
 
-execute as @s if entity @s[tag=Arma] run function cobblecapz:gateways/psionic_knights/pokemon/arma 
+execute as @s if entity @s[tag=Arma] run function cobblecapz:gateways/psionic_knights/pokemon/arma
 
 
 

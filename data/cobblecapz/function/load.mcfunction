@@ -8,6 +8,7 @@ scoreboard objectives add gatewayplayercount dummy
 #schedule function cobblecapz:gateways/disappearing_ghasts/disappearing_ghasts 1s
 function cobblecapz:gateways/disappearing_ghasts/enabled
 function cobblecapz:gateways/the_eruption/enabled
+function cobblecapz:gatewayraids/wish_dean_frigibax/enabled
 
 #General gateway mechanics. Do not disable.
 schedule function cobblecapz:gatewayraid_rebound 5t
