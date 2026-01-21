@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Item:{id:\"mega_showdown:lustrous_orb\",components:{\"minecraft:custom_data\":{skyflight:1b}}}}"
+  }
+}

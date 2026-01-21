@@ -10,6 +10,6 @@ execute as @e[type=player] at @s if entity @e[type=gateways:normal_gateway,dista
 execute as @e[type=player] at @s if entity @e[type=gateways:normal_gateway,distance=64..] run gamemode survival @s[gamemode=adventure]
 
 
-execute as @e[type=gateways:normal_gateway,tag=gatewayraid] at @s run function cobblecapz:gatewayraid_rebound
+
 
 schedule function cobblecapz:at_gateway 10t

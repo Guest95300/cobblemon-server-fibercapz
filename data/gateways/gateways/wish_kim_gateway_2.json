@@ -24,7 +24,7 @@
 					],
 					"DeathLootTable": "/",
 					"Tags": [
-						"dis-ghast"
+						"disappearing"
 					],
 					"CustomNameVisible": 1,
                     "CustomName": "{\"text\":\"Disappearing Ghast\",\"color\":\"white\",\"bold\":false}",
@@ -48,7 +48,7 @@
 					],
 					"DeathLootTable": "/",
 					"Tags": [
-						"dis-ghast"
+						"disappearing"
 					],
 					"CustomNameVisible": 1,
                     "CustomName": "{\"text\":\"Disappearing Blaze\",\"color\":\"white\",\"bold\":false}",
@@ -105,7 +105,7 @@
 					],
 					"DeathLootTable": "/",
 					"Tags": [
-						"dis-ghast"
+						"disappearing"
 					],
 					"CustomNameVisible": 1,
                     "CustomName": "{\"text\":\"Disappearing Ghast\",\"color\":\"white\",\"bold\":false}",
@@ -129,7 +129,7 @@
 					],
 					"DeathLootTable": "/",
 					"Tags": [
-						"dis-ghast"
+						"disappearing"
 					],
 					"CustomNameVisible": 1,
                     "CustomName": "{\"text\":\"Disappearing Blaze\",\"color\":\"white\",\"bold\":false}",
