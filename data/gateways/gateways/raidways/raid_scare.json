@@ -1,0 +1,1039 @@
+{
+	"player_damage_only": true,
+	"leash_range": 90,
+	"spawn_range": 100,
+	"size": "large",
+	"color": "#000000",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "born_in_chaos_v1:barrel_zombie",
+					"count": 5,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.00
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:zombie_fisherman",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.05
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:zombie_lumberjack",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.2
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:dark_vortex",
+					"count": 5,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.2
+								}
+							}
+							},
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "born_in_chaos_v1:dark_vortex",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+								{
+					"entity": "minecraft:phantom",
+					"count": 15,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 10,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"dusc"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 5,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"dusk"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "born_in_chaos_v1:phantom_creeper",
+					"count": 5,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+								{
+					"entity": "minecraft:phantom",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.9
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "minecraft:stray",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.8
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 2,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"grim"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 2.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:dark_vortex",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 2,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"dusc"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "minecraft:phantom",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 2.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:missionary_raider",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 5,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"runa"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "born_in_chaos_v1:dark_vortex",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 2.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "mutantmonsters:mutant_enderman",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 3.5,
+								"health": 10,
+								"attack": 5.0,
+								"reach": 5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 5,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"dusc"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "minecraft:evoker",
+					"count": 5,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 0.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:zombie_lumberjack",
+					"count": 10,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 2.5,
+								"defense": 5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 5,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"trev"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "born_in_chaos_v1:zombie_bruiser",
+					"count": 3,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 2.5
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:supreme_bonescaller",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:door_knight",
+					"count": 5,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 5,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"runa"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+					
+				},
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 5,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"dusk"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "born_in_chaos_v1:supreme_bonescaller",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:missionary_raider",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "minecraft:evoker",
+					"count": 2,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
+								}
+							}
+							},
+					"finalize_spawn": false
+				},
+				{
+					"entity": "born_in_chaos_v1:lifestealer_true_form",
+					"count": 1,
+					"nbt": {
+						"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 5.0,
+								"health": 25.0,
+								"attack": 10.0,
+								"reach": 5.0
+								}
+							}
+							},
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    },
+		{
+			"entities": [
+				{
+					"entity": "cobblemon:pokemon",
+					"count": 1,
+					"nbt": {
+						"Tags": [
+							"Gatewaypokemon",
+							"bosshoopa"
+						],
+						"Behaviours": [
+							"cobblemon:fights_melee", 
+							"cobblemon:core", 
+							"cobblemon:pokemon_battles", 
+							"cobblemon:looks_around", 
+							"cobblemon:avoids_water", 
+							"cobblemon:floats", 
+							"cobblemon:wanders", 
+							"cobblemon:wanders_water", 
+							"cobblemon:retaliates"
+							], 
+						"IsAggressive": "1b", 
+						"Pokemon": {}, 
+						"PoseType": "STAND", 
+						"Config": {
+							"melee_cooldown": "20.0d", 
+							"water_wander_chance": "0.016666668d", 
+							"can_stand_on_powder_snow": "0.0d", 
+							"immune_to_sweet_berry_bush_block": "0.0d", 
+							"swim_circling_speed": "2.3d", 
+							"min_swim_circling_angular_velocity": "0.0d", 
+							"wander_chance": "0.008333334d", 
+							"float_chance": "0.8d", 
+							"panic_when_hurt": "1.0d", 
+							"see_distance": "15.0d", 
+							"walk_speed": "0.35d", 
+							"melee_range": "0.75d", 
+							"horizontal_wander_range": "10.0d", 
+							"look_at_entity_types": "", 
+							"flee_desired_distance": "9.0d", 
+							"can_float": "1.0d", 
+							"wanders": "1.0d", 
+							"pickup_items": [], 
+							"panic_on_passive_damage": "0.0d", 
+							"flee_nearest_hostile": "1.0d", 
+							"water_wanders": "1.0d", 
+							"max_swim_circling_angular_velocity": "1.0d", 
+							"attacks_melee": "1.0d", 
+							"can_path_through_sacc_leaves": "0.0d", 
+							"vertical_wander_range": "5.0d", 
+							"flee_speed_multiplier": "0.5d", 
+							"attacking_movement_speed": "0.5d"
+							}, 
+							"BehavioursAreCustom": "0b", 
+							"BehaviourFlags": "0b"							
+						},
+				        "modifiers": [
+					],	
+					"finalize_spawn": false
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.5
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 120
+	    }
+	],
+    "rewards": [
+		{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "numismatics:bevel",
+				"count": 9
+			},
+			"components": {
+				"Glowing": 1
+			}
+        },
+		{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ],
+    "failures": [
+		{
+			"type": "gateways:command",
+			"command": "function cobblecapz:gateway_end",
+			"desc": "All non-slot 1 pokemon will be released."
+		}
+    ]
+}

@@ -52,4 +52,11 @@ execute as @s if entity @s[tag=fetch1] run function cobblecapz:gateways/flock_at
 execute as @s if entity @s[tag=fetch2] run function cobblecapz:gateways/flock_attack/pokemon/fetch2
 execute as @s if entity @s[tag=fetch3] run function cobblecapz:gateways/flock_attack/pokemon/fetch3
 
+execute as @s if entity @s[tag=bosshoopa] run function cobblecapz:raidgateways/spooky/pokemon/bosshoopa
+execute as @s if entity @s[tag=dusc] run function cobblecapz:raidgateways/spooky/pokemon/dusc
+execute as @s if entity @s[tag=dusk] run function cobblecapz:raidgateways/spooky/pokemon/dusk
+execute as @s if entity @s[tag=trev] run function cobblecapz:raidgateways/spooky/pokemon/trev
+execute as @s if entity @s[tag=grim] run function cobblecapz:raidgateways/spooky/pokemon/grim
+execute as @s if entity @s[tag=runa] run function cobblecapz:raidgateways/spooky/pokemon/runa
+
 tag @s add Gatewaypokemon_marked
