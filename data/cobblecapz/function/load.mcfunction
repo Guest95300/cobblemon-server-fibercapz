@@ -102,6 +102,6 @@ team modify dusc color black
 team add runa
 team modify runa color black
 team add trev
-team modfy trev color black
+team modify trev color black
 team add bosshoopa
 team modify bosshoopa color dark_purple
