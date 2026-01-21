@@ -6,4 +6,3 @@ execute as @e[type=firework_rocket,tag=fireworkmaker] at @s positioned ~ ~1 ~ if
 execute as @e[type=firework_rocket,tag=fireworkmaker] run data merge entity @s {LifeTime:50,FireworksItem:{components:{"minecraft:fireworks":{flight_duration:4b}}}}
 execute at @e[type=firework_rocket,tag=fireworkmaker] run particle amendments:fireball_trail ~ ~ ~ 0 0 0 0.8 1 force
 
-# /give @s minecraft:crossbow[minecraft:custom_data={fireworkmaker:1b},minecraft:repair_cost=100,minecraft:max_damage=5,minecraft:custom_name='[{"text":"Firework Maker","italic":false,"color":"dark_red"}]',minecraft:rarity=rare]

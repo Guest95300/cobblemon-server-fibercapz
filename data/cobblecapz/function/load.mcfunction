@@ -12,6 +12,7 @@ function cobblecapz:gatewayraids/wish_dean_frigibax/enabled
 function cobblecapz:tick_special_mechanics/disappearing_tag/enabled
 function cobblecapz:tick_special_mechanics/flight_block/enabled
 function cobblecapz:tick_special_mechanics/special_items/firework_maker/enabled
+# - /give @s minecraft:crossbow[minecraft:custom_data={fireworkmaker:1b}]
 
 
 
