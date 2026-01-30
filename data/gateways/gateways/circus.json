@@ -402,7 +402,8 @@
 							"attacking_movement_speed": "0.5d"
 							}, 
 							"BehavioursAreCustom": "0b", 
-							"BehaviourFlags": "0b"							
+							"BehaviourFlags": "0b"			
+											
 						},
 				        "modifiers": [
 					],	

@@ -1,0 +1,68 @@
+{
+	"size": "medium",
+	"color": "#195220",
+	"waves": [{
+			"entities": [{
+				"entity": "cobblemontrainerbattle:trainer",
+				"count": 1,
+				"nbt": {
+					"pehkui:scale_data_types": {
+							"pehkui:base": {
+								"scale": 1.0
+								}
+							},
+					"active_effects":[
+						{
+							"id": "fire_resistance",
+							"show_particles": 0
+						}
+					],
+					"CustomNameVisible": 1,
+                    "CustomName": "{\"text\":\"Pokemon Trainer Nigga\",\"color\":\"dark_red\",\"bold\":true}"
+				}
+			}],
+            "modifiers": [
+				{
+					"attribute": "minecraft:generic.step_height",
+					"operation": "add_value",
+					"value": 10
+				},
+				{
+                    "attribute": "generic.max_health",
+                    "operation": "add_multiplied_total",
+                    "value": 2.35
+                },
+				{
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_multiplied_total",
+                    "value": 0.65
+                },
+				{
+					"attribute": "apothic_attributes:dodge_chance",
+					"operation": "add_value",
+                    "value": 10.0
+				}
+			],
+			"max_wave_time": 12000,
+			"setup_time": 360
+		}
+	],
+    "rewards": [
+		{
+            "type": "gateways:stack",
+            "stack": {
+				"id": "mutantmonsters:hulk_hammer",
+				"count": 1,
+				"components": {
+					"minecraft:enchantments": {
+						"levels" :{
+							"soulbound:soulbound": 1
+							}
+						}
+				}
+			}
+        }
+    ],
+    "failures": [
+    ]
+}
